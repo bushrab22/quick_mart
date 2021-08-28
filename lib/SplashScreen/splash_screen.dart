@@ -1,4 +1,4 @@
-+import 'dart:async';
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:quick_mart/welcome/welcome_screen.dart';
@@ -6,6 +6,7 @@ class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
+
 class _SplashScreenState extends State<SplashScreen> {
   startTimer(){
     Timer(Duration(seconds: 5), () async{
@@ -43,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Image.asset('assets/images/logo.png',width: 120.0,) ,
+              child: Image.asset('assets/images/logo.png',width: 200.0,) ,
        ),
             SizedBox(height: 20.0,),
             Center(
